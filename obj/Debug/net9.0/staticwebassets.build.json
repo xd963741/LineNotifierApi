@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "QLQe5huqwV5fRaC9HIr9a+6v3HkPu0Jwcpmsv1OQcco=",
+  "Source": "LineNotifierApi",
+  "BasePath": "_content/LineNotifierApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
