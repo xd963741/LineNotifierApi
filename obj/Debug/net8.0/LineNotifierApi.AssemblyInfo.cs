@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LineNotifierApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6374b378e44bbc1f8db88d4e5f9d86ab9160db5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6eef1d4d1443078518f399b2b4975750fe6608b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("LineNotifierApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LineNotifierApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

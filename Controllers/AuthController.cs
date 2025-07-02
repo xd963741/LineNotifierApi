@@ -18,31 +18,12 @@ public class AuthController : ControllerBase
 
     [HttpPost("login")]
     public async Task<IActionResult> Login([FromBody] LoginRequest req)
+
+    
+
+    [HttpGet("Test")]
+    public async Task<IActionResult> Test([FromBody] LoginRequest req)
     {
-        var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "unknown";
-        string host;
-
-        try
-        {
-            var entry = await Dns.GetHostEntryAsync(HttpContext.Connection.RemoteIpAddress!);
-            host = entry.HostName;
-        }
-        catch
-        {
-            host = "unknown";
-        }
-
-        var log = new LoginLog
-        {
-            Username = req.Username,
-            Password = req.Password,
-            ClientIp = ip,
-            ClientHost = host
-        };
-
-        _db.LoginLogs.Add(log);
-        await _db.SaveChangesAsync();
-
-        return Ok(new { success = true });
+        return Ok(new { success = true, msg = "hello" });
     }
 }
